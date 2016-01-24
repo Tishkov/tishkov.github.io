@@ -1,0 +1,415 @@
+body {
+    font-family: "Roboto Slab", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 720px;
+}
+
+.container {
+    width: 84%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.narrow-container {
+    width: 57%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-header {
+    color: white;
+    background-color: #5c5766;
+    padding-top: 60px;
+    padding-bottom: 125px;
+}
+
+.main-header nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+.main-header nav li {
+    display: inline-block;
+    margin-right: 13%;
+}
+
+.main-header nav li:last-child {
+    margin-right: 0;
+}
+
+.main-header nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.main-header nav a:hover {
+    opacity: .5;
+}
+
+.logo {
+    width: 96px;
+    height: 96px;
+    border: 2px solid #ffd670;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -48px;
+}
+
+.logo p {
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    text-align: center;
+    border: 13px solid #5c5766;
+    background-color: #ffd670;
+}
+
+.header-logo p {
+    font-family: "Pacifico", sans-serif;
+    color: #4e4460;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 55px;
+    background-color: white;
+}
+
+.header-logo {
+    border-color: white;
+    margin-top: 140px;
+}
+
+.header-introdaction {
+    margin-top: 280px;
+    text-align: center;
+}
+
+.header-introdaction h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.header-introdaction h1 {
+    margin: 0;
+    font-weight: lighter;
+    font-size: 66px;
+    letter-spacing: .02em;
+}
+
+.header-introdaction p {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 44px;
+}
+
+.social {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    border: 3px solid #c4c0cf;
+    margin-right: 25px;
+}
+
+.social:last-child {
+    margin-right: 0;
+}
+
+.social-1 .img {
+    background: url('img/sprite.png') no-repeat 9px 15px;
+    width: 23px;
+    height: 13px;
+}
+
+.social-1 {
+    background: url('img/sprite.png') no-repeat 9px 15px;
+}
+
+.social-2 {
+    background: url('img/sprite.png') no-repeat 12px -325px;
+}
+
+.social-3 {
+    background: url('img/sprite.png') no-repeat 11px -278px;
+}
+
+.social-1:hover {
+    background-color: #6996c7;
+}
+
+.social-2:hover {
+    background-color: #28c3ff;
+}
+
+.social-3:hover {
+    background-color: #28c3ff;
+}
+
+.main-header .social-1:after,
+.main-header .social-3:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #c4c0cf;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.main-header .social-1:after {
+    margin-left: -50px;
+}
+
+.header-info ul {
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: .2em;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.header-info li {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.header-info li:last-child {
+    margin-right: 0;
+}
+
+.header-info li b {
+    text-transform: uppercase;
+    color: #ffd670;
+}
+
+.about {
+    position: relative;
+    color: white;
+    background-color: #524664;
+    padding-top: 100px;
+    padding-bottom: 115px;
+}
+
+.about-logo p {
+    background-image: url(img/sprite.png);
+    background-position: 6px -185px;
+    background-repeat: no-repeat;
+    border-color: #524664;
+}
+
+.head {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.head h1 {
+    font-size: 35px;
+    letter-spacing: .05em
+}
+
+.head h1:after {
+    content: "";
+    display: block;
+    height: 3px;
+    background: white;
+    width: 92px;
+    margin: 0 auto;
+    opacity: .4;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.head p {
+    font-weight: lighter;
+}
+
+.about-head {
+    padding-top: 90px;
+}
+
+.about p {
+    color: #b5b0c1;
+}
+
+.about-info {
+    width: 45%;
+    float: left;
+}
+
+.about-skills {
+    width: 45%;
+    float: right;
+}
+
+.about .progress {
+    width: 100%;
+    height: 43px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    background-color: #615474;
+}
+
+.skill {
+    background-color: #ffd670;
+    height: 100%;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    padding: 0 20px;
+    font-size: 13px;
+    line-height: 40px;
+    text-transform: uppercase;
+    min-width: 150px;
+}
+
+.skill b {
+    float: right;
+    color: #4a5561;
+}
+
+.skill-1 {
+    border-radius: inherit;
+}
+
+.skill-2 {
+    width: 75%;
+}
+
+.skill-3 {
+    width: 35%;
+}
+
+.skill-4 {
+    width: 80%;
+}
+
+.skill-5 {
+    width: 72%;
+}
+
+.skill-6 {
+    width: 45%;
+}
+
+.portfolio {
+    background-color: #ffd670;
+    padding-top: 110px;
+    color: white;
+}
+
+.portfolio-description {
+    float: left;
+    width: 35%;
+    padding-right: 5%;
+    font-weight: lighter;
+}
+
+.portfolio-slider {
+    float: right;
+    width: 60%;
+    height: 600px;
+    background-color: azure;
+}
+
+.portfolio-description h3 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: lighter;
+    border-top: 1px solid rgba(255, 255, 255, .4);
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.portfolio-description h3:first-child {
+    border: 0;
+    padding-top: 0;
+}
+
+.portfolio-description h2 {
+    font-size: 23px;
+}
+
+.portfolio-description p,
+.portfolio-description li {
+    font-size: 15px;
+}
+
+.portfolio-description a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+.portfolio-projects {}
+
+.portfolio-projects ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 60px 0;
+    clear: both;
+}
+
+.portfolio-projects li {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.portfolio-projects li:last-child {
+    margin-right: 0;
+}
+
+.portfolio-projects button {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Roboto Slab", sans-serif;
+    background: none;
+    padding: 12px 16px;
+    border: none;
+}
+
+.portfolio-projects li.active button {
+    border: 1px solid #fff0ca;
+    border-radius: 2px;
+}
+
+.portfolio-project {
+    width: 200px;
+    height: 200px;
+    background-color: #fff0ca;
+    border-radius: 15px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    display: inline-block;
+    margin-right: 110px;
+}
+
+.portfolio-project:nth-child(5) {
+    margin-right: 0;
+}
+
+.portfolio-project:nth-child(6) {
+    margin-left: 155px;
+}
